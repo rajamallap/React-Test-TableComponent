@@ -1,0 +1,41 @@
+#title {
+    text-align: center;
+    font-family: arial, sans-serif;
+  }
+  
+  #dataTable {
+    text-align: center;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    border: 3px solid #ddd;
+    width: 100%;
+  }
+  
+  #dataTable td, #dataTable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #dataTable tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #dataTable tr:hover {background-color: #ddd;}
+  
+  #dataTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(47, 89, 206);
+    color: white;
+  }
+  
+
+  #myButton
+  {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 10px;
+    text-align: center;
+    background-color: rgb(14, 55, 238);
+    color: white;
+    border-radius:5px ;
+  }
